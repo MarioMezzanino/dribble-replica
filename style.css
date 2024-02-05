@@ -1,0 +1,32 @@
+.sign-up{
+    height: 40px;
+    width: 70px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.over{
+    height: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out;
+    background-color: antiquewhite;
+    border-radius: 25px;
+
+}
+
+@keyframes .over{
+    10%{
+        background-color: red;
+        
+    }
+    20%{
+        background-color:orange;
+    }
+}
